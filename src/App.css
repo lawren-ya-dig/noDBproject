@@ -1,33 +1,26 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  font-family: 'dosis';
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+html { 
+  background: url('./totoro.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+  width: auto;
+  height: 60px;
+  background-color: black;
+  padding-top: 0;
+  color: rgb(197, 196, 196);
+  font-family: 'cormorant unicase'; 
+  font-size: 40px;
+  font-style: bold;
 }

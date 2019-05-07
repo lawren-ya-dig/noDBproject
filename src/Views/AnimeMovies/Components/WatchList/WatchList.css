@@ -1,0 +1,26 @@
+.watchList {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    height: 700px;
+}
+
+.watchList h3 {
+    position: absolute;
+    top: 0px;
+    left: 45px;
+    border: solid white 1px;
+    padding: 0px 50px;
+    background: black;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+    padding: 4px;
+}
+
+.delete_btn {
+    margin-left: 20px;
+}
